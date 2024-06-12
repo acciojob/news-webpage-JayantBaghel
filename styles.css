@@ -1,1 +1,59 @@
 /*  your css code here. If applicable */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.header {
+  /* width: 90%; */
+  margin: auto;
+  text-align: center;
+  background-color: #011e29;
+  color: white;
+  padding: 25px;
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  /* flex-wrap: wrap; */
+	/* flex-direction:row; */
+  text-align: center;
+}
+
+.section {
+  background-color: white;
+  border-radius: 10px;
+  /* display: inline-block; */
+  margin-top: 35px;
+  margin-right: 10px;
+  padding: 25px;
+}
+
+.latest-news-section {
+  width: 50%;
+  height: 100px;
+}
+
+.latest-news-section h3,
+ul li {
+  background-color: white;
+}
+.main-article-section {
+  height: 100px;
+}
+
+.main-article-section h3,
+p {
+  background-color: white;
+}
+
+.pictorial-news-section h3 {
+  background-color: white;
+}
